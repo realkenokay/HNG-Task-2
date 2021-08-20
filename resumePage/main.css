@@ -1,0 +1,85 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    height: 100vh;
+}
+.part1{
+    display: flex;
+    flex: 1.5;
+    background-color: rgb(168, 192, 164);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px 0 ;
+    padding: auto;
+
+}
+.part1 img{
+    display: flex;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px dotted whitesmoke;
+    margin-left: 50px;
+}
+
+.name{
+    display: flex;
+    flex-direction:column;
+    justify-items: center;
+    color: white;
+    padding: 0;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+.part2{
+    flex: 3;
+    background: rgb(245, 245, 245);
+}
+
+.part1 ul {
+    list-style: none;
+    font-size: 30px;
+    color: whitesmoke;
+    padding: 0;
+}
+
+.part1 ul li{
+    text-align: center;
+}
+
+.part1 ul li a{
+    color: whitesmoke;
+}
+
+.text {
+    font-family: inherit;
+    color:whitesmoke;
+    font-size: 20px;
+    text-align: center ;
+}
+
+.text a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.part2 {
+    padding: 50px ;
+    margin: 0 auto;
+}
+
+.part2 ul > li {
+    color:rgb(141, 120, 80);
+    text-align: justify;
+    font-size:20px ;
+}
+.list{
+    max-width: 85%;
+}
